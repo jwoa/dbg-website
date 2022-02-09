@@ -79,13 +79,13 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/about">
         About Us
       </NavLink>
-      <NavLink href="#">
+      {/* <NavLink href="#">
         Funding
-      </NavLink>
-      <NavLink href="#">
+      </NavLink> */}
+      <NavLink href="/investments">
         Investments
       </NavLink>
-      <NavLink href="#">
+      <NavLink href="/sustainability">
         Sustainability &amp; ESG
       </NavLink>
       <NavLink href="/news">

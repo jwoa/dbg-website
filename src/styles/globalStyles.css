@@ -19,3 +19,7 @@
 .siteContainer {
     padding: 30px;
 }
+
+h5 span {
+    color: #000!important;
+}

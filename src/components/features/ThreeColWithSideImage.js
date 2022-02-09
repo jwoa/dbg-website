@@ -24,7 +24,7 @@ const ThreeColumnContainer = styled.div`
 `;
 const Subheading = tw(SubheadingBase)`mb-4`;
 const Heading = tw(SectionHeading)`w-full`;
-const Description = tw(SectionDescription)`w-full text-center`;
+const Description = tw(SectionDescription)`w-full text-left`;
 
 const VerticalSpacer = tw.div`mt-10 w-full`
 
@@ -58,7 +58,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
+export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "The value-adding requirement that we seek to embed in our financing partners, and other financial investors do understand that DBG is focused on long term capital recycling. This approach is different from permanent capital and traditional private equity because our goal is to return investors money with a reasonable return." }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) imageSrc - the image shown at the top of the card
@@ -87,7 +87,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
       <ThreeColumnContainer>
         {subheading && <Subheading>{subheading}</Subheading>}
         <Heading>{heading}</Heading>
-        {description && <Description>{description}</Description>}
+        {description && <Description>The value-adding requirement that we seek to embed in our financing partners, and other financial investors do understand that DBG is focused on long term capital recycling. This approach is different from permanent capital and traditional private equity because our goal is to return investors money with a reasonable return.<br/>This partnership approach and capital preservation approach is supported by the fact that DBG will limit the number of companies in which it invests, focusing its efforts on companies that can serve as growth conduits for domestic development and regional expansion. Using the capital we raise from our partners, we expect to develop a strong pipeline of sustainable  businesses which will, at times, require the adoption of lengthy investment time horizons as a result the instruments we invest with are going to be key to our ability to exit investments in a timely and profitable manner.<br/><br/>The flexibility that DBG has in terms of investment and financing periods originates from the fact that it has been established as a wholesale bank and seeks to attract investors who care about capital and enhanced returns, but also expect to take a bit more risk than what they would otherwise get their home countries.</Description>}
         <VerticalSpacer />
         {cards.map((card, i) => (
           <Column key={i}>

@@ -106,6 +106,8 @@ import MainLandingPage from "MainLandingPage.js";
 import ThankYouPage from "ThankYouPage.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SustainabilityPage from "pages/Sustainability";
+import InvestingPage from "pages/Investing";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -124,14 +126,17 @@ export default function App() {
         <Route path="/thank-you">
           <ThankYouPage />
         </Route>
+        <Route path="/sustainability">
+          <SustainabilityPage />
+        </Route>
         <Route path="/terms-of-service">
           <TermsOfServicePage />
         </Route>
         <Route path="/privacy-policy">
           <PrivacyPolicyPage />
         </Route>
-        <Route path="#">
-          <PricingPage />
+        <Route path="/investments">
+          <InvestingPage />
         </Route>
         <Route path="/news">
           <BlogIndexPage />
