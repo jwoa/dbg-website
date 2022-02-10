@@ -48,7 +48,7 @@ export default ({
     {
       imageSrc: "https://static1.squarespace.com/static/593b01a4b3db2b2f40223f45/t/5feb963181a48a7fd5cacfd3/1609274929162/Kevin+Jeffries+00569website+square.jpg",
       position: "Position",
-      name: "Dr. Yaw Ansu",
+      name: "Kwamina Bentsi-Enchil Duker",
       links: [
         {
           url: "https://linkedin.com",
@@ -59,7 +59,7 @@ export default ({
     {
       imageSrc: "https://static1.squarespace.com/static/593b01a4b3db2b2f40223f45/t/5feb963181a48a7fd5cacfd3/1609274929162/Kevin+Jeffries+00569website+square.jpg",
       position: "Position",
-      name: "Stephan Leudesdorff",
+      name: "Michael Mensah Baah",
       links: [
         {
           url: "https://linkedin.com",
@@ -81,7 +81,7 @@ export default ({
     {
       imageSrc: "https://static1.squarespace.com/static/593b01a4b3db2b2f40223f45/t/5feb963181a48a7fd5cacfd3/1609274929162/Kevin+Jeffries+00569website+square.jpg",
       position: "Position",
-      name: "Rosemary Yeboah",
+      name: "Anthony Yao Mawuena Nyakpo",
       links: [
         {
           url: "https://linkedin.com",
@@ -103,7 +103,7 @@ export default ({
     {
       imageSrc: "https://static1.squarespace.com/static/593b01a4b3db2b2f40223f45/t/5feb963181a48a7fd5cacfd3/1609274929162/Kevin+Jeffries+00569website+square.jpg",
       position: "Position",
-      name: "Yaw Nsarkoh",
+      name: "El Farouk Umar",
       links: [
         {
           url: "https://linkedin.com",
@@ -114,7 +114,40 @@ export default ({
     {
       imageSrc: "https://static1.squarespace.com/static/593b01a4b3db2b2f40223f45/t/5feb963181a48a7fd5cacfd3/1609274929162/Kevin+Jeffries+00569website+square.jpg",
       position: "Position",
-      name: "Nora Bannerman Abbott",
+      name: "Ishmael Nii Aumua Oku",
+      links: [
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        }
+      ],
+    },
+    {
+      imageSrc: "https://static1.squarespace.com/static/593b01a4b3db2b2f40223f45/t/5feb963181a48a7fd5cacfd3/1609274929162/Kevin+Jeffries+00569website+square.jpg",
+      position: "Position",
+      name: "Dr. Prince Adjei",
+      links: [
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        }
+      ],
+    },
+    {
+      imageSrc: "https://static1.squarespace.com/static/593b01a4b3db2b2f40223f45/t/5feb963181a48a7fd5cacfd3/1609274929162/Kevin+Jeffries+00569website+square.jpg",
+      position: "Position",
+      name: "Gifty Afua Sackey",
+      links: [
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        }
+      ],
+    },
+    {
+      imageSrc: "https://static1.squarespace.com/static/593b01a4b3db2b2f40223f45/t/5feb963181a48a7fd5cacfd3/1609274929162/Kevin+Jeffries+00569website+square.jpg",
+      position: "Position",
+      name: "Dr. Clement Kwabena Opuni - Frimpong",
       links: [
         {
           url: "https://linkedin.com",

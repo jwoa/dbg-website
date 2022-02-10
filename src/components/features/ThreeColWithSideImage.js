@@ -85,11 +85,11 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
   return (
     <Container>
       <ThreeColumnContainer>
-        {subheading && <Subheading>{subheading}</Subheading>}
+        {/* {subheading && <Subheading>{subheading}</Subheading>} */}
         <Heading>{heading}</Heading>
         {description && <Description>The value-adding requirement that we seek to embed in our financing partners, and other financial investors do understand that DBG is focused on long term capital recycling. This approach is different from permanent capital and traditional private equity because our goal is to return investors money with a reasonable return.<br/>This partnership approach and capital preservation approach is supported by the fact that DBG will limit the number of companies in which it invests, focusing its efforts on companies that can serve as growth conduits for domestic development and regional expansion. Using the capital we raise from our partners, we expect to develop a strong pipeline of sustainable  businesses which will, at times, require the adoption of lengthy investment time horizons as a result the instruments we invest with are going to be key to our ability to exit investments in a timely and profitable manner.<br/><br/>The flexibility that DBG has in terms of investment and financing periods originates from the fact that it has been established as a wholesale bank and seeks to attract investors who care about capital and enhanced returns, but also expect to take a bit more risk than what they would otherwise get their home countries.</Description>}
         <VerticalSpacer />
-        {cards.map((card, i) => (
+        {/* {cards.map((card, i) => (
           <Column key={i}>
             <Card>
               <span className="imageContainer">
@@ -103,7 +103,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
               </span>
             </Card>
           </Column>
-        ))}
+        ))} */}
       </ThreeColumnContainer>
       <DecoratorBlob />
     </Container>

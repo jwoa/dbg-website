@@ -44,14 +44,18 @@ export default () => {
     <div className="siteContainer">
       <Header />
       <Hero />
+      <Features 
+        heading={<>We are looking for <HighlightedText>Long-term Investment&nbsp;Partnerships</HighlightedText></>}
+      />
+      <FeatureStats/>
       <Container>
         <ContentWithPaddingXl>
           <Text>
-          <h2>Our Investment Approach</h2>
+          {/* <h2>Our Investment Approach</h2>
           <p>The value-adding requirement that we seek to embed in our financing partners, and other financial investors do understand that DBG is focused on long term capital recycling. This approach is different from permanent capital and traditional private equity because our goal is to return investors money with a reasonable return.</p>
           <p>This partnership approach and capital preservation approach is supported by the fact that DBG will limit the number of companies in which it invests, focusing its efforts on companies that can serve as growth conduits for domestic development and regional expansion. Using the capital we raise from our partners, we expect to develop a strong pipeline of sustainable  businesses which will, at times, require the adoption of lengthy investment time horizons as a result the instruments we invest with are going to be key to our ability to exit investments in a timely and profitable manner.</p>
           <p>The flexibility that DBG has in terms of investment and financing periods originates from the fact that it has been established as a wholesale bank and seeks to attract investors who care about capital and enhanced returns, but also expect to take a bit more risk than what they would otherwise get their home countries.</p>
-          <br/>
+          <br/> */}
           <h2>We set a clear-cut sector focus agenda</h2>
           <p>DBG focuses primarily on business in (Fast Moving Consumer Goods) FMCG, Retail and Distribution, Education & High Value Services Skills, Healthcare and Bio Technology, and Agribusiness, Manufacturing, Technology Media and Telecommunications, Transportation and Logistics, Heritage Restoration and Tourism</p>
           <p>Our clear sector focus brings with it deep industry expertise and extensive networks, greatly enhancing the positive impact that DBG can have on the companies in which it’s funds are used to invest in.</p>
@@ -92,10 +96,7 @@ export default () => {
           </Text>
         </ContentWithPaddingXl>
       </Container>
-      <FeatureStats/>
-      <Features 
-        heading={<>We are looking for <HighlightedText>Long-term Investment&nbsp;Partnerships</HighlightedText></>}
-      />
+      
       {/* <MainFeature
         heading={<>Cloud built by and for <HighlightedText>Professionals</HighlightedText></>}
       /> */}

@@ -97,13 +97,16 @@ export default () => {
         <StyledHeader links={navLinks} />
         <TwoColumn>
           <LeftColumn>
+          <br/>
+
             <Notification>We are actively seeking new projects!</Notification>
             <Heading>
-              <span>Work With Us</span>
-              <br />
+              {/* <span>Work With Us</span>
+              <br /> */}
               <SlantedBackground>Development Bank Ghana</SlantedBackground>
             </Heading>
-            <PrimaryAction>Read Customer Stories</PrimaryAction>
+            <br/>
+            {/* <PrimaryAction>Read Customer Stories</PrimaryAction> */}
           </LeftColumn>
           {/* <RightColumn>
             <StyledResponsiveVideoEmbed
